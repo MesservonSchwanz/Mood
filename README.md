@@ -80,3 +80,4 @@ Moodify/
 - ✅ Basic functionality complete  
 - 🎨 UI has minimal styling  
 - 🚀 GitHub Pages deployable
+- ![436655197-3a67d391-dc87-4196-922b-df2d65f35c98](https://github.com/user-attachments/assets/2ad9b3f3-4734-47a4-a2f7-07c30ae3e0a2)
