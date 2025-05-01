@@ -1,43 +1,82 @@
-# Feliz Template
+# Moodify 😊 – Mood Journal Web Application
 
-This template gets you up and running with a simple web app using [Fable](http://fable.io/) and [Feliz](https://github.com/Zaid-Ajaj/Feliz).
+🗕️ **Project Alpha (Spring Semester 2025)**  
+🛠️ **Technologies:** F#, Fable, Elmish, Feliz
 
-## Requirements
+---
 
-* [dotnet SDK](https://www.microsoft.com/net/download/core) v7.0 or higher
-* [node.js](https://nodejs.org) v18+ LTS
+## 📝 Description
 
+Moodify is a browser-based mood journal app that allows you to rate your mood on a scale, add a note, and save it for later. The app uses the browser’s **LocalStorage** for data persistence.
 
-## Editor
+---
 
-To write and edit your code, you can use either VS Code + [Ionide](http://ionide.io/), Emacs with [fsharp-mode](https://github.com/fsharp/emacs-fsharp-mode), [Rider](https://www.jetbrains.com/rider/) or Visual Studio.
+## ✅ Features
 
+- Rate your mood on a 1–5 scale  
+- Add notes to entries  
+- Save and load mood entries  
+- Simple and responsive UI  
+- Uses browser LocalStorage
 
-## Development
+---
 
-Before doing anything, start with installing npm dependencies using `npm install`.
+## ⚙️ Installation & Usage
 
-Then to start development mode with hot module reloading, run:
+### 1. Navigate to the project directory
+
 ```bash
-npm start
+cd Moodify
 ```
-This will start the development server after compiling the project, once it is finished, navigate to http://localhost:8080 to view the application .
 
-To build the application and make ready for production:
-```
-npm run build
-```
-This command builds the application and puts the generated files into the `deploy` directory (can be overwritten in webpack.config.js).
+### 2. Install dependencies
 
-### Tests
+```bash
+npm install
+```
 
-The template includes a test project that ready to go which you can either run in the browser in watch mode or run in the console using node.js and mocha. To run the tests in watch mode:
-```
-npm run test:live
-```
-This command starts a development server for the test application and makes it available at http://localhost:8085.
+### 3. Start the application
 
-To run the tests using the command line and of course in your CI server, you have to use the mocha test runner which doesn't use the browser but instead runs the code using node.js:
+```bash
+npm run start
 ```
-npm test
+
+Then open your browser to:  
+🔗 [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🌐 Live Demo
+
+Deployed via GitHub Pages:  
+🔗 **[Try it here](https://messervonschwanz.github.io/Moodify/Guardian)**
+
+---
+
+## 📁 Project Structure
+
 ```
+Moodify/
+├── public/         # Static files (e.g., favicon)
+├── src/            # F# source files
+├── dist/           # Build output
+├── package.json    # NPM dependencies and scripts
+└── Main.fs         # Main F# app logic
+```
+
+---
+
+## 💻 Development Environment
+
+- ✅ Windows 10+
+- ✅ Node.js 18+
+- ✅ .NET SDK 7.0+
+- ✅ NPM 10+
+
+---
+
+## 📌 Project Status
+
+- ✅ Basic functionality complete  
+- 🎨 UI has minimal styling  
+- 🚀 GitHub Pages deployable
